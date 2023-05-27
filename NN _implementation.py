@@ -3,6 +3,8 @@ class DenseLayer:
         self.size = size
     
     def initialize(self, neur_prev):
+        #I forgat to paste this line so I modify it a few minutes after
+        self.w = np.random.rand(self.size, neur_prev + 1)
 
         
 class NN:
